@@ -1,0 +1,19 @@
+<mvc:View controllerName="EjMasterDetail.EjMasterDetail.controller.Detail" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" 	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<Page showNavButton="true" navButtonPress="onBack" >
+    <content>
+    <f:SimpleForm title="Detalle Producto">
+    <f:content>
+    
+    </f:content>
+<Label text="Codigo de Producto"></Label>
+<Text text="{modelSeleccionado>/codigo_producto}"/>
+<Label text="Descripcion de Producto"></Label>
+<Text text="{modelSeleccionado>/desc_producto}"/>
+        
+    </f:SimpleForm>
+
+    </content>
+    </Page>
+</mvc:View>
